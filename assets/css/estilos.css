@@ -20,6 +20,13 @@ body {
   background-position: center;
 }
 
+#Experiencia .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 /* Contacto */
 
 #Contacto form label {
