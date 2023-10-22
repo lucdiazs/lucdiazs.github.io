@@ -18,46 +18,44 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/img/logo.png" class="img-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black p-2">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-0 me-auto" href="#">
+                <img src="assets/img/logo.png" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                <ul class="navbar-nav ms-auto mb-auto mb-lg-0 fs-5">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portafolio</a>
+                        <a class="nav-link" href="#Acerca-de-mi">Acerca de mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Educación</a>
+                        <a class="nav-link" href="#Mis-trabajos">Educación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Experiencia</a>
+                        <a class="nav-link" href="#Experiencia">Experiencia</a>
                     </li>
-
                 </ul>
-
             </div>
         </div>
     </nav>
 
-    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
-        <div class="container">
-            <div class="ms-auto col-12 col-md-7 ">
+    <header id="Hero-Section" class="text-light text-end py-5 mt-5 bg-dark">
+        <div class="container-fluid">
+            <div class="ms-auto col-12 col-md-7 ms-auto text-end rounded p-4">
                 <h1 class="display-1 fw-bold my-5">
                     Luciano Díaz
                 </h1>
                 <p class="my-5">
-                   Soy un profesional en formación, titulado de Ingeniero en Conectividad y redes, decidido ir por las metas
-                   y aprovechar las oportunidades que se me presenten. Me gusta la tecnologia y todo lo que conlleva la continuidad operacional.
-                   En resumen soy pro activo y siento que soy una persona positiva en mi vida personal como en el ambiente laboral.
+                    Soy un profesional en formación, titulado de Ingeniero en Conectividad y redes, decidido ir por las metas
+                    y aprovechar las oportunidades que se me presenten. Me gusta la tecnología y todo lo que conlleva la continuidad operacional.
+                    En resumen, soy proactivo y siento que soy una persona positiva en mi vida personal como en el ambiente laboral.
                 </p>
-                <div class="mb-5 pb-5">
-                    <button class="btn btn-lg btn-outline-info text-light me-4">Portafolio</button>
+                <div class="mb-5 pb-5 text-end">
+                    <a href="portafolio.html" class="btn btn-lg btn-outline-info text-light me-4">Portafolio</a>
                     <button class="btn btn-lg btn-info text-light">Contacto</button>
                 </div>
             </div>
@@ -69,11 +67,6 @@
 
 
         <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
-
-        <p class="my-4">
-        
-        </p>
-
 
         <div class="row">
             <div class="col-12 col-md-4">
@@ -105,14 +98,12 @@
     </section>
 
 
-    <section id="Mis-trabajos" class="my-5 p-5 bg-info">
-
+    <section id="Mis-trabajos" class="my-5 p-5 bg-dark">
         <h2 class="display-4 fw-bold text-center text-light mb-3">Educación adquirida</h2>
-
         <div class="row">
             <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-1.jpg)"></div>
+                <div class="card text-center h-100">
+                    <div class="image-top w-100" style="background-image: url(assets/img/card-1.jpg)"></div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Titulado de Ingenieria en Conectividad y Redes</h5>
                         <p class="card-text">
@@ -126,8 +117,8 @@
                 </div>
             </div>
             <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-2.jpg)"></div>
+                <div class="card text-center h-100">
+                    <div class="image-top w-100" style="background-image: url(assets/img/card-2.jpg)"></div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Conocimientos de CCNA</h5>
                         <p class="card-text">
@@ -141,11 +132,10 @@
                 </div>
             </div>
             <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-3.jpg)"></div>
+                <div class="card text-center h-100">
+                    <div class="image-top w-100" style="background-image: url(assets/img/card-3.jpg)"></div>
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">Estudiante de Desarrollo Full Stack JavaScript
-                        </h5>
+                        <h5 class="card-title fw-bold">Estudiante de Desarrollo Full Stack JavaScript</h5>
                         <p class="card-text">
                             Aprendiendo a construir proyectos full stack mezclando interfaces web construidas con React, 
                             el framework Front End con más demanda laboral de la industria actual y Express Js, 
@@ -158,22 +148,21 @@
                 </div>
             </div>
         </div>
-
     </section>
-
-    <section id="Experiencia" class="my-5 p-5 bg-info">
+    
+    <section id="Experiencia" class="my-5 p-5 bg-dark">
 
         <h2 class="display-4 fw-bold text-center text-light mb-3">Experiencia</h2>
 
         <div class="row">
             <div class="col-12 col-sm-4 py-2">
-                <div class="card">
+                <div class="card text-center h-100">
                     <div class="image-top" style="background-image: url(assets/img/card-4.jpg)"></div>
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">Tecnico Telecomunicaciones en Terreno</h5>
+                        <h5 class="card-title fw-bold">Técnico Telecomunicaciones en Terreno</h5>
                         <p class="card-text">
-                            Tuve la oportunidad de trabajar como Tecnico Senior en Telecomunicaciones en la 
-                            Minera AngloAmerican "Los Bronces". Revisando enlaces inalámbricas, CCTV, Sistemas Flota.
+                            Tuve la oportunidad de trabajar como Técnico Senior en Telecomunicaciones en la 
+                            Minera AngloAmerican "Los Bronces". Revisando enlaces inalámbricas, CCTV, Sistemas Flota. Entre otros...
                         </p>
                         <button type="button" class="btn btn-outline-info">
                             Ver más
@@ -182,12 +171,12 @@
                 </div>
             </div>
             <div class="col-12 col-sm-4 py-2">
-                <div class="card">
+                <div class="card text-center h-100">
                     <div class="image-top" style="background-image: url(assets/img/card-5.jpg)"></div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Supervisor de Technical Desk</h5>
                         <p class="card-text">
-                            Al posser experiencia en Terreno y conocer en profundidad los sistemas y servicios desplegados.
+                            Al posser experiencia en terreno y conocer en profundidad los sistemas y servicios desplegados.
                             Tuve el privilegio de liderar una mesa de soporte , brindando continuidad operacional 24x7. 
                         </p>
                         <button type="button" class="btn btn-outline-info">
@@ -197,7 +186,7 @@
                 </div>
             </div>
             <div class="col-12 col-sm-4 py-2">
-                <div class="card">
+                <div class="card text-center">
                     <div class="image-top" style="background-image: url(assets/img/card-6.jpg)"></div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Ingeniero Preventa Telecomunicaciones
@@ -218,13 +207,11 @@
 
     </section>
 
-    
-
-
-
-
-    <footer class="bg-dark text-center text-light p-4">
-        <p class="mb-0">Olivia Ros 2019. Todos los derechos reservados.</p>
+    <footer class="bg-black text-center text-light p-4">
+        <a href="https://www.linkedin.com/in/luciano-a-d%C3%ADaz-aa895518a/" target="_blank">
+            <img src="./assets/img/logo footer.png" alt="Logo de footer Linkdln">
+        </a>
+        <p class="mb-0">Luciano Díaz © 2023.Todos los derechos reservados.</p>
     </footer>
 
 
